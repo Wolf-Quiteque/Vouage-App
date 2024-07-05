@@ -14,7 +14,8 @@
       "backgroundColor": "#000000"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/5fb33c17-9ae9-48b4-bef0-c4f4fa809258"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -35,11 +36,16 @@
     "web": {
       "favicon": "./src/assets/favicon.png"
     },
-     "plugins": [
+    "plugins": [
       "@react-native-firebase/app",
       "@react-native-firebase/perf",
       "@react-native-firebase/crashlytics"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5fb33c17-9ae9-48b4-bef0-c4f4fa809258"
+      }
+    },
+    "runtimeVersion": "1.0.0"
   }
 }
- 
