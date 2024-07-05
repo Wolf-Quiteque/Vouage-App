@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Voyage-App",
+    "slug": "Voyage-App",
+    "owner": "mq3",
+    "version": "1.0.0",
+    "githubUrl": "https://github.com/Wolf-Quiteque/Vouage-App",
+    "description": "Voyage App",
+    "orientation": "portrait",
+    "icon": "./src/assets/app_icon.png",
+    "splash": {
+      "image": "./src/assets/app_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "googleServicesFile": "ios/uberclone.xcodeproj/GoogleService-Info.plist",
+      "supportsTablet": true,
+      "bundleIdentifier": "y"
+    },
+    "android": {
+      "googleServicesFile": "android/app/google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.uber_clone_android"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+     "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/perf",
+      "@react-native-firebase/crashlytics"
+    ]
+  }
+}
+ 
